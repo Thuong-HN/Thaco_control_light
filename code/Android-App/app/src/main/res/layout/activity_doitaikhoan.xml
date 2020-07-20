@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e8ae"
+    tools:context=".Doitaikhoan">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thacologonew" />
+
+    <EditText
+        android:id="@+id/edtDOITK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Tài khoản"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/edtDOIMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/edtDOITK"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edtDOITK"
+        app:layout_constraintTop_toBottomOf="@+id/edtDOITK" />
+
+    <Button
+        android:id="@+id/btnXNDOI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/vien"
+        android:text="XÁC NHẬN"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHUY"
+        app:layout_constraintEnd_toStartOf="@+id/btnHUY"
+        app:layout_constraintStart_toStartOf="@+id/edtDOIMK"
+        app:layout_constraintTop_toTopOf="@+id/btnHUY"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnHUY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/vien"
+        android:text="HỦY"
+        app:layout_constraintEnd_toEndOf="@+id/edtDOIMK"
+        app:layout_constraintTop_toBottomOf="@+id/edtDOIMK" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">THACO-NHIP</string>
+    <string name="login_name">Đăng nhập</string>
+    <string name="main_name">CHỌN KHU VỰC ĐIỀU KHIỂN</string>
+    <string name="khuvucI_name">KHU VỰC NHIỆT LUYỆN</string>
+    <string name="khuvucII_name">KHU VỰC LẮP RÁP</string>
+
+    <string name="denkhuvuc2">KHU VỰC LẮP RÁP</string>
+    <string name="ghinhodangnhap">Ghi nhớ đăng nhập ?</string>
+    <string name="taikhoan">Tài khoản</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="batdau">Bắt đầu</string>
+    <string name="ketthuc">Kết thúc</string>
+    <string name="todo">TODO</string>
+    <string name="doitaikhoan">ĐỔI TÀI KHOẢN</string>
+    <string name="denkhuvuc1">NHIỆT LUYỆN</string>
+    <string name="KV1">NHIỆT LUYỆN</string>
+    <string name="KV2">LẮP RÁP</string>
+    <string name="activity_title">ĐĂNG NHẬP</string>
+    <string name="t_i_kho_n">TÀI KHOẢN</string>
+    <string name="m_t_kh_u">MẬT KHẨU</string>
+
+    <string name="b_ng_i_n_t">BẢNG ĐIỆN TỬ</string>
+    <string name="khu_v_c_kh_c">KHU VỰC KHÁC</string>
+
+
+
+
+</resources>

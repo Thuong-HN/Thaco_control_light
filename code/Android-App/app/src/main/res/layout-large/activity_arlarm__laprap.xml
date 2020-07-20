@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e8ae"
+    tools:context=".Arlarm_Laprap"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thacologonew"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/arlam1"
+        app:layout_constraintStart_toStartOf="@+id/arlam1"
+        app:layout_constraintTop_toBottomOf="@+id/arlam1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat1"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat1"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/arlam2"
+        app:layout_constraintStart_toStartOf="@+id/arlam2"
+        app:layout_constraintTop_toBottomOf="@+id/arlam2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat2"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/txtbat2"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/arlam3"
+        app:layout_constraintStart_toStartOf="@+id/arlam3"
+        app:layout_constraintTop_toBottomOf="@+id/arlam3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat3"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/txtbat3"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/arlam4"
+        app:layout_constraintStart_toStartOf="@+id/arlam4"
+        app:layout_constraintTop_toBottomOf="@+id/arlam4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat4"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat4"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txttat1"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/txttat1"
+        app:layout_constraintTop_toBottomOf="@+id/arlam5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat5"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat5"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txttat2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/txttat2"
+        app:layout_constraintTop_toBottomOf="@+id/arlam6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat6"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat6"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat7"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat7"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txttat4"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/txttat4"
+        app:layout_constraintTop_toBottomOf="@+id/arlam8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat8"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/txtbat8"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/arlam10"
+        app:layout_constraintStart_toStartOf="@+id/arlam10"
+        app:layout_constraintTop_toBottomOf="@+id/arlam10"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txttat10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GIO TAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtbat10"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/txtbat10"
+        app:layout_constraintTop_toBottomOf="@+id/txtbat10"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtbat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GIO BAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txttat3"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/txttat3"
+        app:layout_constraintTop_toBottomOf="@+id/arlam7"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam1"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam2"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/arlam2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam2"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintStart_toEndOf="@+id/arlam1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam3"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam2"
+        app:layout_constraintEnd_toStartOf="@+id/arlam4"
+        app:layout_constraintTop_toTopOf="@+id/arlam2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam4"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/arlam3"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam5"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/arlam1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/arlam1"
+        app:layout_constraintTop_toBottomOf="@+id/txttat1"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam6"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam5"
+        app:layout_constraintEnd_toEndOf="@+id/arlam2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/arlam2"
+        app:layout_constraintTop_toTopOf="@+id/arlam5"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam7"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam6"
+        app:layout_constraintEnd_toEndOf="@+id/arlam3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/arlam3"
+        app:layout_constraintTop_toTopOf="@+id/arlam6"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam8"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/arlam7"
+        app:layout_constraintEnd_toEndOf="@+id/arlam4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/arlam4"
+        app:layout_constraintTop_toTopOf="@+id/arlam7"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/arlam10"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/clockredv2"
+        android:text="ToggleButton"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:text="HẸN BẬT/TẮT TẤT CẢ"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/arlam7"
+        app:layout_constraintStart_toEndOf="@+id/arlam6"
+        app:layout_constraintTop_toBottomOf="@+id/txttat7" />
+
+</android.support.constraint.ConstraintLayout>

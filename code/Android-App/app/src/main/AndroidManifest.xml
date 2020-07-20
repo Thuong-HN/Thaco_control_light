@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.control_light">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <application
+
+        android:gravity="center"
+        android:icon="@mipmap/icon_app"
+        android:label="THACO-NHIP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name="org.eclipse.paho.android.service.MqttService" >
+        </service>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/main_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KhuvucIActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/khuvucI_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KhuvucIIActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/khuvucII_name"
+            android:screenOrientation="portrait" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
+        <activity
+            android:name=".Doitaikhoan"
+            android:label="ĐỔI TÀI KHOẢN" />
+        <activity
+            android:name=".mail"
+            android:label="GỬI GÓP Ý" />
+        <activity
+            android:name=".getinfo"
+            android:label="THÔNG TIN PHẦN MỀM" />
+
+        <activity android:name=".Arlarm_Nhietluyen"
+            android:label="HẸN GIỜ KHU VỰC NHIỆT LUYỆN"/>
+
+        <activity
+            android:name=".Arlarm_Laprap"
+            android:label="HẸN GIỜ KHU VỰC LẮP RÁP" />
+    </application>
+
+</manifest>

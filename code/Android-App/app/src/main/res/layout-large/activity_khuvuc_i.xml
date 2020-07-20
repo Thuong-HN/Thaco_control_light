@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e8ae"
+    tools:context=".KhuvucIActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ToggleButton
+        android:id="@+id/btn2kv7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/btn2kv3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn2kv3"
+        app:layout_constraintTop_toBottomOf="@+id/btn2ALLnl"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2kv1"
+        app:layout_constraintStart_toEndOf="@+id/btn2kv1"
+        app:layout_constraintTop_toTopOf="@+id/btn2kv1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/alarm_LR"
+        android:layout_width="73dp"
+        android:layout_height="54dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clock"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2kv10auto"
+        app:layout_constraintEnd_toStartOf="@+id/btn2kv7"
+        app:layout_constraintStart_toEndOf="@+id/btn2kv6"
+        app:layout_constraintTop_toTopOf="@+id/btn2kv10auto" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/arrow"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/arrow"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2kv4"
+        app:layout_constraintEnd_toStartOf="@+id/btn2kv4"
+        app:layout_constraintTop_toTopOf="@+id/btn2kv4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/btn2kv2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn2kv2"
+        app:layout_constraintTop_toBottomOf="@+id/btn2ALLnl"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2kv7"
+        app:layout_constraintEnd_toEndOf="@+id/btn2kv4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn2kv4"
+        app:layout_constraintTop_toTopOf="@+id/btn2kv7"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv9manual"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:checked="false"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white"
+        android:textOff="NHÍP MẪU"
+        android:textOn="NHÍP MẪU"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn2kv6"
+        app:layout_constraintStart_toEndOf="@+id/btn2kv5"
+        app:layout_constraintTop_toBottomOf="@+id/btn2kv6"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+
+    <ToggleButton
+        android:id="@+id/btn2kv10auto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/white"
+        android:textOff="AUTO LOA"
+        android:textOn="AUTO LOA"
+        android:textSize="10sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/btn2kv8"
+        app:layout_constraintStart_toEndOf="@+id/btn2kv7"
+        app:layout_constraintTop_toBottomOf="@+id/btn2kv8"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thacologonew" />
+
+    <ToggleButton
+        android:id="@+id/btn2kv5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2kv6"
+        app:layout_constraintEnd_toEndOf="@+id/btn2kv1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn2kv1"
+        app:layout_constraintTop_toTopOf="@+id/btn2kv6"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ToggleButton
+        android:id="@+id/btn2ALLnl"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2v2"
+        android:textColor="@android:color/background_light"
+        android:textOff="ALL"
+        android:textOn="ALL"
+        app:layout_constraintEnd_toStartOf="@+id/btn2kv3"
+        app:layout_constraintStart_toEndOf="@+id/btn2kv2"
+        app:layout_constraintTop_toBottomOf="@+id/btn2kv2"
+        tools:ignore="MissingConstraints" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:text="TẠO PHÔI"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintEnd_toStartOf="@+id/arrow"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/arrow" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:text="NHIỆT LUYỆN"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/arrow"
+        app:layout_constraintTop_toBottomOf="@+id/arrow" />
+
+</android.support.constraint.ConstraintLayout>
